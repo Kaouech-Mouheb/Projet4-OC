@@ -135,7 +135,13 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+hr{
+    border-top:2px solid wheat;
+}
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -534,6 +540,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    
+
 }
 
 a[data-lightbox]:hover::before {
@@ -1048,5 +1056,35 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    /*correction de section portofoglio*/
+    .container{
+        width:100%;
+    }
+    a[data-lightbox] {
+        max-width:270px;
+    }
+    .col-sm-6{
+        width:50%;
+        float: left;
+    }
+    .first-article-font span {
+        font-size: 0.6em;
+    }
+    .social{
+        padding:20px;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-3row{
+        display: flex;
+        flex-wrap: wrap;
+        padding:0px 10px;
+    }
+    h3{
+        padding-left:0px !important;
+        padding-right:0px !important;
     }
 }
