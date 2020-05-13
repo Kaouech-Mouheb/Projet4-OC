@@ -135,6 +135,7 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+/*Mes modification sur le fichier principal css*/
 ul{
     list-style: none;
     padding-left: 0px;
@@ -142,6 +143,7 @@ ul{
 hr{
     border-top:2px solid wheat;
 }
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -1052,21 +1054,19 @@ h4 {
         padding-right: 0;
     }
 }
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
     /*correction de section portofoglio*/
-    .container{
-        width:100%;
-    }
+    
     a[data-lightbox] {
         max-width:270px;
     }
-    .col-sm-6{
-        width:50%;
+    .portofolio-items{
+        max-width:50%;
         float: left;
+        margin: 0px;
     }
     .first-article-font span {
         font-size: 0.6em;
@@ -1086,5 +1086,13 @@ h4 {
     h3{
         padding-left:0px !important;
         padding-right:0px !important;
+    }
+}
+/*correction de la section formumlaire affichage ipad*/
+@media(min-width:576px) and (max-width:992px){
+    .contact-items{
+        max-width:50%;
+        float: left;
+        margin: 0px;
     }
 }
