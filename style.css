@@ -646,6 +646,9 @@ a {
     a:hover {
         border-bottom-width: 2px;
     }
+    .no-effect a:hover{
+            border-bottom-width: 0px;
+    }
 }
 .container {
     max-width: 1000px;
@@ -696,6 +699,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
 
 h2 {
     font-size: 22px;
@@ -763,6 +767,10 @@ h4 {
     color: #F3976C!important;
 }
 
+.tc-black {
+    color: black!important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -795,7 +803,8 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background: #c27956!important;
+    background-image: url('img/texture-paper.png');
 }
 
 .bg-lines-h2-bg {
@@ -1070,4 +1079,41 @@ h4 {
         float: left;
         margin: 0px;
     }
+}
+/*Personalisation de la page mentions légales*/
+.section-mentions p{
+    font-size: 1.3em
+}
+.section-mentions h4{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#F3976C!important;
+}
+.section-mentions section{
+    margin-bottom: 40px;
+    margin-top: 20px;  
+}
+.section-mentions h1{
+    color:#F3976C !important;
+    padding:20px;
+    text-align: center;
+}
+.section-mentions span{
+    display: inline-block;
+    width: 100%;
+   
+}
+
+.header{
+    -webkit-box-shadow: 6px 3px 3px rgb(175, 172, 172);
+    -moz-box-shadow: 6px 3px 3px rgb(175, 172, 172);
+    -o-box-shadow: 6px 3px 3px rgb(175, 172, 172);
+        box-shadow: 6px 3px 3px rgb(175, 172, 172);
+    z-index: 2;
+    margin-bottom: 4px;
+}
+/*footer*/
+.header1{
+    border-top:4px solid rgb(240, 236, 236);
+    z-index: 2;
 }
